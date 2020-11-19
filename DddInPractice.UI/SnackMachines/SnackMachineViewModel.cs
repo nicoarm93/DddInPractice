@@ -11,7 +11,7 @@ namespace DddInPractice.UI.SnackMachines
         private readonly SnackMachine _snackMachine;
         private readonly SnackMachineRepository _repository;
 
-        public override string Caption => "Snack Machine";
+        public override string Caption => "Snack Machine Snack";
         public string MoneyInTransaction => _snackMachine.MoneyInTransaction.ToString();
         public Money MoneyInside => _snackMachine.MoneyInside;
 
